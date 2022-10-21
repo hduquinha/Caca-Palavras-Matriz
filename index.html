@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz - Caça Palavras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    
+    <h1>Caça-Palavras de One Piece</h1>
+    <p>1. Luffy</p>
+    <p>2. Zoro</p>
+    <p>3. Nami</p>
+    <p>4. Ussopp</p>
+    <p>5. Sanji</p>
+    <p>6. Chpper</p>
+    <p>7. Robin</p>
+    <p>8. Franky</p>
+    <p>9. Brook</p>
+    <p>10. Jimbei</p>
+</div>
+
+    <table border="1" class="tabela">
+    <script>
+        x = new Array;
+        x = [
+                [
+                    ['L', ''], ['G', ''] ,['N', ''], ['L', ''], ['H', ''], ['C', 'certachopper'], ['H', 'certachopper'], ['O', 'certachopper'], ['P', 'certachopper'], ['P', 'certachopper'], ['E', 'certachopper'], ['R', 'certachopper']
+                ],
+                [
+                    ['A', ''], ['I', ''], ['O', ''], ['S', 'certasanji'], ['A', 'certasanji'], ['N', 'duplacerta'], ['J', 'duplacerta'], ['I', 'certasanji'], ['I', ''], ['D', ''], ['A', ''], ['E', '']
+                ],
+                [
+                    ['E', ''], ['N', ''], ['E', ''], ['H', ''], ['G', ''], ['I', 'certajimbei'], ['A', 'certanami'], ['M', ''], ['A', ''], ['T', ''], ['F', ''], ['U', '']
+                ],
+                [
+                    ['N', ''], ['E', ''], ['R', ''], ['T', ''], ['M', 'certajimbei'], ['F', 'certafranky'], ['N', ''], ['M', 'certanami'], ['S', ''], ['B', ''], ['L', ''], ['T', '']
+                ],
+                [
+                    ['L', 'certaluffy'], ['W', ''], ['L', ''], ['B', 'certajimbei'], ['R', 'certafranky'], ['T', ''], ['Z', 'certazoro'], ['A', ''], ['I', 'certanami'], ['R', 'certarobin'], ['T', ''], ['O', '']
+                ],
+                [
+                    ['U', 'certaluffy'], ['E', ''], ['E', 'certajimbei'], ['A', 'certafranky'], ['T', ''], ['W', ''], ['M', ''], ['O', 'certazoro'], ['O', 'certarobin'], ['T', ''], ['T', ''], ['H', '']
+                ],
+                [
+                    ['F', 'certaluffy'], ['I', 'certajimbei'], ['N', 'certafranky'], ['E', ''], ['L', ''], ['M', ''], ['A', ''], ['B', 'duplacerta'], ['R', 'certazoro'], ['V', ''], ['N', ''], ['T', '']
+                ],
+                [
+                    ['F', 'certaluffy'], ['K', 'certafranky'], ['D', ''], ['A', ''], ['I', ''], ['E', ''], ['I', 'certarobin'], ['R', 'certabrook'], ['I', ''], ['O', 'certazoro'], ['T', ''], ['H', '']
+                ],
+                [
+                    ['Y', 'duplacerta'], ['R', ''], ['I', ''], ['E', ''], ['S', ''], ['N', 'certarobin'], ['D', ''], ['O', 'certabrook'], ['N', ''], ['T', ''], ['H', ''], ['E', '']
+                ],
+                [
+                    ['N', ''], ['U', ''], ['I', ''], ['T', ''], ['R', ''], ['T', ''], ['A', ''], ['O', 'certabrook'], ['S', ''], ['S', ''], ['N', ''], ['N', '']
+                ],
+                [
+                    ['I', ''], ['R', ''], ['T', ''], ['S', ''], ['R', ''], ['E', ''], ['P', ''], ['K', 'certabrook'], ['A', ''], ['O', ''], ['C', ''], ['H', '']
+                ],
+                [
+                    ['I', ''], ['S', ''], ['E', ''], ['L', ''], ['I', ''], ['U', 'certaussop'], ['S', 'certaussop'], ['S', 'certaussop'], ['O', 'certaussop'], ['P', 'certaussop'], ['P', 'certaussop'], ['O', '']
+                ],
+            ];
+
+    
+        for(linha=0;linha<12;linha++){ document.write("<tr>");
+            for(coluna=0;coluna<12;coluna++){
+                document.write("<td class='" + x[linha][coluna][1] + "'>"+ x[linha][coluna][0] + "</td>");
+            }
+
+            document.write("</tr>")
+            
+        }
+        
+    </script>
+
+    </table>
+</body>
+</html>
